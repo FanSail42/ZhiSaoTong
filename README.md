@@ -2,6 +2,8 @@
 
 > 扫地机器人 RAG + ReAct Agent 智能客服系统
 
+**GitHub：** [https://github.com/FanSail42/ZhiSaoTong](https://github.com/FanSail42/ZhiSaoTong)
+
 ---
 
 ## 项目简介
@@ -298,7 +300,7 @@ python rag/rag_service.py
 
 ## 注意事项
 
-1. 项目根目录暂未提供 `requirements.txt`，依赖可从 `venv` 中通过 `pip freeze` 导出
+1. 依赖见项目根目录 `requirements.txt`，安装命令：`pip install -r requirements.txt`
 2. `get_weather`、`get_user_location`、`get_user_id`、`get_current_month` 为模拟数据，生产环境需对接真实 API
 3. 存在多处 `chroma_db` 目录，实际使用的是 `config/chroma.yml` 中配置的 `chroma_db`
 4. 需有效 DashScope API Key 才能正常调用大模型与 Embedding
